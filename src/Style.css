@@ -1,0 +1,116 @@
+*:hover{
+    transition: 0.5s ease;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header a, header .MuiButton,header .MuiSvgIcon-root{
+    margin: 20px;
+    cursor: pointer;
+}
+header .MuiSvgIcon-root{
+    padding: 10px;
+}
+header .MuiSvgIcon-root:hover{
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    flex: 1;
+    margin: 5%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.searchBox{
+    padding: 20px;
+    max-width: 584px;
+    margin: auto;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #9aa0a6;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    border-radius: 24px;
+}
+main .searchBox center{
+    margin: 20px;
+}
+main .searchBox .btn-default{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    text-transform: none;
+    box-shadow: none;
+}
+main .searchBox .btn-default:focus{
+    outline: none;
+    border: 1px rgb(66 133 244);
+}
+main .searchBox .btn-default:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.inputContainer:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.inputContainer .MuiSvgIcon-root{
+    padding-right: 13px;
+}
+.inputContainer input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+}
+.inputContainer .mic{
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.inputContainer .mic svg{
+    width: 24px;
+    height: 24px;
+}
+@media(max-width:380px){
+    header a, header .MuiButton,header .MuiSvgIcon-root{
+        margin: 10px;
+    }
+}

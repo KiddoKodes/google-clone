@@ -1,0 +1,24 @@
+.result-item{
+    margin: 30px;
+}
+.result-item *{
+    margin: 4px;
+}
+.results-disp-link{
+    text-decoration: none;
+    font-weight: 100;
+    color: #000;
+}
+.results-disp-title{
+    font-weight: 400;
+    margin: 0;
+}
+.results-disp-title a{
+    text-decoration: none;
+}
+.results-disp-title a:visited{
+    color: rgb(124, 49, 49);
+}
+.results-disp-para{
+    padding-right: 20px;
+}
