@@ -1,6 +1,23 @@
 .result-item{
     margin: 30px;
 }
+.underscore{
+    display: none;
+    position: absolute;
+    background: #1a73e8;
+    height: 3px;
+    margin-top: 56px;
+    width: 90px;
+}
+.result-header label{
+    display: inline-flex;
+    align-items: center;
+}
+.result-header label svg{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
 .result-item *{
     margin: 4px;
 }
@@ -21,4 +38,55 @@
 }
 .results-disp-para{
     padding-right: 20px;
+}
+.results-Images{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.results-Images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.results-Images .image h5{
+    margin: 0;
+}
+.results-Images .image span{
+    opacity: 0.6;
+}
+.results-Images  .image img{
+    height: 320px;
+    float: left;
+    object-fit: cover;
+    margin: 20px; 
+    cursor: pointer;
+}
+.results-Images .image img:hover{
+    outline: 2px solid #000;
+}
+.dialog{
+    height: max-content;
+    padding: 55px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: #141518;
+    color: #fff;
+}
+.dialog img{
+    max-width: 80vw;
+    max-height: 80vh;
+}
+.dialog h2{
+    margin: 2px;
+
+}
+.dialog a{
+    color:#fff
+}
+.dialog .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }

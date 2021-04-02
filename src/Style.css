@@ -78,6 +78,10 @@ main .searchBox .btn-default:hover{
     border: 1px solid #dadce0;
     color: #202124;
 }
+main .NKcBbd{
+    text-decoration: none;
+    display: block;
+}
 .inputContainer:hover{
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
     border-color: rgba(223,225,229,0);
@@ -109,6 +113,7 @@ main .searchBox .btn-default:hover{
     width: 24px;
     height: 24px;
 }
+
 @media(max-width:380px){
     header a, header .MuiButton,header .MuiSvgIcon-root{
         margin: 10px;

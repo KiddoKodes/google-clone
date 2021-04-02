@@ -5,6 +5,7 @@ function useGoogleSearch(term) {
     useEffect(()=>{
 
         const fetchResults=async()=>{
+            console.log(term)
             fetch(`https://www.googleapis.com/customsearch/v1?key=${APIKEY}&cx=${SEID}&q=${term}`)
             .then(res=>res.json())
             .then(result=>setData(result))

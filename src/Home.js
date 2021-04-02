@@ -77,12 +77,19 @@ function Home() {
             >
               Google Search
             </button>
-            <a href="#">
+            <a href="https://google.com/doodles">
               <button className="btn-default">I'm Feeling Lucky</button>
             </a>
+            <a className="NKcBbd" href="https://www.google.com/url?q=https://india.googleblog.com/2021/03/spot-misinformation-online-with-these.html%3Futm_source%3Dgoogle%26utm_medium%3DHPP%26utm_term%3D%26utm_content%3D%26utm_campaign%3Dfactcheck&amp;source=hpp&amp;id=19023671&amp;ct=3&amp;usg=AFQjCNHzzWtqt8SBm1xa7mXJmrUXwXixCw&amp;sa=X&amp;ved=0ahUKEwiDhtHkxd_vAhVWyzgGHdGXAm0Q8IcBCA4" rel="nofollow">Helpful tips to fact check information online</a>
           </center>
         </form>
       </main>
+      <footer>
+      <h3 class="footer-content">This is not real Google. It is a Clone built by me...</h3>
+      <hr/>
+      <h4 class="footer-content">For Code : <a href="https://github.com/KiddoKodes/google-clone" target="__blank" rel="noreferrer">Click Here</a></h4>
+      <h5 class="footer-content">Thank You For Visiting!!!</h5>
+     </footer>
     </div>
   );
 }

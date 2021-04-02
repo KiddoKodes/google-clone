@@ -9,17 +9,18 @@ function SearchBar(props) {
         onChange={(event) => props.setsearch(event.target.value)}
         value={props.search}
         jsaction="paste:puy29d;"
-        maxlength="2048"
+        maxLength="2048"
         name="q"
         aria-autocomplete="both"
         aria-haspopup="false"
-        autocapitalize="off"
-        autocomplete="off"
-        autocorrect="off"
-        autofocus=""
-        spellcheck="false"
+        autoCapitalize="off"
+        autoComplete="off"
+        autoCorrect="off"
+        autoFocus=""
+        spellCheck="false"
         title="Search"
         aria-label="Search"
+        value={props.value}
       />
       <div className="mic">
         <svg
